@@ -1,0 +1,16 @@
+Session_id,Page_view_id,Action_page,Source_page,Action_Date_time
+100,1,Login,Login,2016-09-09T08:01:59Z
+100,2,Chat_screen,Login,2016-08-09T08:02:01Z
+100,3,Ins_card_page,Chat_screen,2016-08-09T08:04:56Z
+100,4,App_paused,Ins_card_page,2016-08-09T08:05:03Z
+100,5,App_closed,App_paused,2016-08-09T08:25:03Z
+101,6,On_boarding_data,Login,2016-08-09T12:00:00Z
+101,7,Chat_screen,On_boarding_data,2016-08-09T12:30:00Z
+101,8,App_paused,Chat_screen,2016-08-09T12:42:01Z
+101,9,Chat_screen,App_paused,2016-08-09T12:43:00Z
+101,10,App_closed,Chat_screen,2016-08-09T12:44:00Z
+102,11,Login,Login,2016-09-11T08:01:59Z
+102,12,Chat_screen,Login,2016-09-11T08:01:59Z
+102,13,Call_screen,Chat_screen,2016-09-11T08:02:03Z
+102,14,Options_page,Chat_screen,2016-09-11T08:02:04Z
+102,15,App_closed,Call_screen,2016-09-11T08:02:05Z

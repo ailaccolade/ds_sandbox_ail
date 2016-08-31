@@ -1,0 +1,30 @@
+Session_id,Conversation_id,Agent,Agent_Id ,date_time,Widget_Action,Action_content,Page_View_id,Content_id
+100,500,Welcome_bot,1,2016-08-09T08:02:01Z,auto_render_text_1,"""Welcome to Accolade, Phil. Hope you are doing well today"" ",2,0
+100,500,Wait_time_bot,7,2016-08-09T08:02:02Z,predict_wait_time,"""It looks like your HA, Meredith, is busy right now. My best guess is that you'll be waiting for about 5 minutes."" ",2,1
+100,500,Wait_time_bot,7,2016-08-09T08:02:05Z,offer_wait_options,Wait_time_option_widget,2,2
+100,500,Client,1000012,2016-08-09T08:02:05Z,offer_wait_options,next_available_ha,2,3
+100,500,HA,2000012,2016-08-09T08:04:00Z,enter_text,"""Hi Ben. I'm Jenn, your HA. How can I help you today?""",2,4
+100,500,Client,1000012,2016-08-09T08:04:05Z,enter_text,"""Hi Jenn, I'm looking for a provider in my area.""",2,5
+100,500,HA,2000012,2016-08-09T08:04:10Z,enter_text,"""I can help you with that. Are you looking for a Primary Care Physcian?""",2,6
+100,500,Client,1000012,2016-08-09T08:04:13Z,enter_text,"""Yes. I need someone within five miles of my house, who speaks Mandrin, and is a woman.""",2,7
+100,500,HA,2000012,2016-08-09T08:04:46Z,enter_text,"""I will do my best to find that for you. Let me look into it, and I'll get back to you. Do you prefer that I send you a text message, or call you?"" ",2,8
+100,500,Client,1000012,2016-08-09T08:04:55Z,enter_text,"""I prefer that you text me. Thank you!""",2,9
+101,600,Welcome_bot,1,2016-08-09T12:30:10Z,auto_render_text_2,"""Welcome to Accolade. Hope you are doing well today. While we're finding your personal HA, let's get some basic information set up for you."" ",7,10
+101,600,Registration_bot,4,2016-08-09T12:35:00Z,enter_form_fn,Buddy,7,11
+101,600,Registration_bot,4,2016-08-09T12:36:00Z,enter_form_fn,Hackett,7,12
+101,600,Registration_bot,4,2016-08-09T12:37:00Z,enter_form_zip,98101,7,13
+101,600,Validation_bot,5,2016-08-09T12:38:00Z,validate_match,require_validation,7,14
+101,600,Validation_bot,5,2016-08-09T12:39:00Z,validate_form_l4ssn,4455,7,15
+101,600,Validation_bot,5,2016-08-09T12:39:30Z,validate_match, ,7,16
+101,600,Perms_bot,3,2016-08-09T12:40:00Z,welcome_message,"""Great! We're going to get you to an HA. While you're waiting for someone to help answer your quesitons, let's get your permissions set. There are three quick questions""",7,17
+101,600,Perms_bot,3,2016-08-09T12:40:45Z,perms_send_messages,opt_in,7,18
+101,600,Perms_bot,3,2016-08-09T12:41:00Z,perms_camera_access,opt_out,7,19
+101,600,match_bot,8,2016-08-09T12:41:00Z,intitate_match_with_ha,,7,20
+101,600,Perms_bot,3,2016-08-09T12:42:00Z,perms_phone_access,opt_in,7,21
+101,600,Wait_time_bot,7,2016-08-09T12:42:01Z,predict_wait_time,"""It looks like your HA, Meredith, is busy right now. I estimate that you'll be waiting for less than 2 minutes."" ",7,22
+101,600,HA,2000012,2016-08-09T12:43:00Z,enter_text,"""Hi Mike. I'm Meredith, your HA. What can I help you with today?""",7,23
+101,600,Client,1000022,2016-08-09T12:43:20Z,enter_text,"""Hi Meredith. I need the phone number of my primary care doc.""",7,24
+101,600,HA,2000012,2016-08-09T12:43:40Z,enter_text,"""I can help. It looks like that number is 206-444-9900""",7,25
+101,600,Client,1000022,2016-08-09T12:44:00Z,enter_text,"""Great. Thx""",7,26
+102,700,Welcome_bot,1,2016-09-11T08:01:59Z,auto_render_text_1,"""Welcome to Accolade, Stephanie Hope you are doing well today"" ",12,27
+102,700,Wait_time_bot,7,2016-09-11T08:012:01Z,predict_wait_time,"""It looks like your HA, Meredith, is busy right now. My best guess is that you'll be waiting for about 5 minutes."" ",12,28
